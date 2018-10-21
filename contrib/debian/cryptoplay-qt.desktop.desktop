@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CryptoPlay
+Comment=CryptoPlay P2P Cryptocurrency
+Exec=cryptoplay-qt %u
+Terminal=false
+Type=Application
+Icon=cryptoplay128
+MimeType=x-scheme-handler/cryptoplay;
+Categories=Office;Finance;
+Name[en_US]=cryptoplay-qt.desktop

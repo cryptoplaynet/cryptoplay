@@ -1,0 +1,22 @@
+[Unit]
+Description=CryptoPlay's distributed currency daemon
+After=network.target
+
+[Service]
+User=cryptoplaycore
+Group=cryptoplaycore
+
+Type=forking
+PIDFile=/var/lib/cryptoplayd/cryptoplayd.pid
+ExecStart=/usr/bin/cryptoplayd -daemon -pid=/var/lib/cryptoplayd/cryptoplayd.pid \
+-conf=/etc/cryptoplaycore/cryptoplay.conf -datadir=/var/lib/cryptoplayd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+usr/local/bin/cryptoplay-qt usr/bin
+share/pixmaps/cryptoplay32.xpm usr/share/pixmaps
+share/pixmaps/cryptoplay16.xpm usr/share/pixmaps
+share/pixmaps/cryptoplay128.png usr/share/pixmaps
+debian/cryptoplay-qt.desktop usr/share/applications
+debian/cryptoplay-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,3 @@
+debian/manpages/cryptoplayd.1
+debian/manpages/cryptoplay.conf.5
+debian/manpages/cryptoplay-cli.1

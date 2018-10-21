@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cryptoplay_bg.qm</file>
+        <file alias="de">locale/cryptoplay_de.qm</file>
+        <file alias="en">locale/cryptoplay_en.qm</file>
+        <file alias="es">locale/cryptoplay_es.qm</file>
+        <file alias="fi">locale/cryptoplay_fi.qm</file>
+        <file alias="fr">locale/cryptoplay_fr.qm</file>
+        <file alias="it">locale/cryptoplay_it.qm</file>
+        <file alias="ja">locale/cryptoplay_ja.qm</file>
+        <file alias="pl">locale/cryptoplay_pl.qm</file>
+        <file alias="pt">locale/cryptoplay_pt.qm</file>
+        <file alias="ru">locale/cryptoplay_ru.qm</file>
+        <file alias="sk">locale/cryptoplay_sk.qm</file>
+        <file alias="sv">locale/cryptoplay_sv.qm</file>
+        <file alias="vi">locale/cryptoplay_vi.qm</file>
+        <file alias="zh_CN">locale/cryptoplay_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cryptoplay_zh_TW.qm</file>
+    </qresource>
+</RCC>
